@@ -1,0 +1,13 @@
+{
+  "name": "graphtm-scalability",
+  "version": "1.0.0",
+  "description": "A Python project with virtual environment and dependencies.",
+  "scripts": {
+      "start": "python src/main.py",
+      "install-deps": "pip install -r requirements.txt",
+      "setup-python": "./setup-python.sh",
+      "freeze": "pip freeze > requirements.txt"
+  },
+  "author": "",
+  "license": "MIT"
+}
