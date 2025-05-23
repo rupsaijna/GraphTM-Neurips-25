@@ -2,9 +2,8 @@ import argparse
 from tmu.models.classification.vanilla_classifier import TMClassifier
 from tmu.tools import BenchmarkTimer
 import numpy as np
-import tensorflow as tf
-from tensorflow.keras.datasets import imdb
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.datasets import imdb
+from keras.preprocessing.sequence import pad_sequences
 from sklearn.feature_extraction.text import CountVectorizer
 
 def prepare_imdb_dataset(num_words=10000):

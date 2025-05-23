@@ -1,7 +1,7 @@
 
 import numpy as np
 import argparse
-from tensorflow.keras.datasets import imdb
+from keras.datasets import imdb
 from GraphTsetlinMachine.graphs import Graphs
 from GraphTsetlinMachine.tm import MultiClassGraphTsetlinMachine
 from time import time

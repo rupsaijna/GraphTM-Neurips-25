@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch_geometric.nn import GCNConv, GATConv, GlobalAttention
 from torch_geometric.data import Data, Batch, DataLoader
-from tensorflow.keras.datasets import imdb
+from keras.datasets import imdb
 import argparse
 from tqdm import tqdm
 import time
